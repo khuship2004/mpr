@@ -12,10 +12,10 @@ const Header = () => {
         alt="Logo"
       />
       <ul className="flex flex-row mr-10 gap-5">
-        <Link className="rounded-full">
+        <Link to="/account" className="rounded-full">
           <VscAccount size={25} />
         </Link>
-        <Link>
+        <Link to="/cart">
           <FiShoppingCart size={25} />
         </Link>
       </ul>
